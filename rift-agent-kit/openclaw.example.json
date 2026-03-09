@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "rift-agent-kit": {
+      "command": "node",
+      "args": [
+        "dist/server.js"
+      ],
+      "cwd": "./rift-agent-kit",
+      "env": {
+        "RIFT_RPC_URL": "https://api.devnet.solana.com",
+        "RIFT_RPC_BACKUP_URL": "",
+        "RIFT_RPC_WSS_URL": "",
+        "RIFT_KEYPAIR_PATH": "$HOME/.config/solana/id.json"
+      }
+    }
+  }
+}
