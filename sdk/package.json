@@ -1,0 +1,20 @@
+{
+  "name": "@rifted/sdk",
+  "version": "0.1.0",
+  "description": "Opinionated TypeScript SDK for the RIFT contest protocol on Solana",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.95.3",
+    "js-sha3": "^0.9.3"
+  }
+}
