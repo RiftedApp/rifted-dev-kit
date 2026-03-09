@@ -1,0 +1,22 @@
+{
+  "name": "rift-agent-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent toolkit and OpenClaw skill for interacting with the RIFT contest protocol",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@rifted/sdk": "file:../sdk",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "@solana/web3.js": "^1.95.3",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
+}
